@@ -22,6 +22,7 @@ public class UserController {
 	@RequestMapping(value = "/regUser.htm", method = RequestMethod.POST)
 	public String regUser(Model model, @ModelAttribute("user") User u) {
 		model.addAttribute("user", u);
+		System.out.println("registering new user to the system");
 		return "display";
 	}
 
