@@ -1,6 +1,6 @@
 <html>
 <body>
-	<h2>Welcome to Ashok IT School</h2>
+	<center><h2>Welcome to Learning Time</h2></center>
 
 
 	<a href="displayForm.htm">Registration Form</a>
